@@ -22,7 +22,7 @@
 <div class="container py-4">
     <div class="row gy-4">
 
-        <!-- Card Somar -->
+
         <div class="col-md-3">
             <div class="card mb-4 shadow-sm" style="width: 18rem;">
                 <img class="card-img-top figure-img img-fluid rounded" src="{{ asset('storage/imagens/mais.png') }}" alt="Imagem da soma">
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <!-- Card Subtrair -->
+
         <div class="col-md-3">
             <div class="card mb-4 shadow-sm" style="width: 18rem;">
                 <img class="card-img-top figure-img img-fluid rounded" src="{{ asset('storage/imagens/menos.png') }}" alt="Imagem da subtração">
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <!-- Card Multiplicar -->
+
         <div class="col-md-3">
             <div class="card mb-4 shadow-sm" style="width: 18rem;">
                 <img class="card-img-top figure-img img-fluid rounded" src="{{ asset('storage/imagens/multiplicação.png') }}" alt="Imagem da multiplicação">
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <!-- Card Dividir -->
+
         <div class="col-md-3">
             <div class="card mb-4 shadow-sm" style="width: 18rem;">
                 <img class="card-img-top figure-img img-fluid rounded" src="{{ asset('storage/imagens/divisão.png') }}" alt="Imagem da divisão">
@@ -72,7 +72,7 @@
     </div>
 </div>
 
-<!-- Modal Somar -->
+
 <div class="modal fade" id="modalSomar" tabindex="-1" aria-labelledby="modalSomarLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -93,7 +93,7 @@
   </div>
 </div>
 
-<!-- Modal Subtrair -->
+
 <div class="modal fade" id="modalSubtrair" tabindex="-1" aria-labelledby="modalSubtrairLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -114,7 +114,7 @@
   </div>
 </div>
 
-<!-- Modal Multiplicar -->
+
 <div class="modal fade" id="modalMultiplicar" tabindex="-1" aria-labelledby="modalMultiplicarLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -135,7 +135,7 @@
   </div>
 </div>
 
-<!-- Modal Dividir -->
+
 <div class="modal fade" id="modalDividir" tabindex="-1" aria-labelledby="modalDividirLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
