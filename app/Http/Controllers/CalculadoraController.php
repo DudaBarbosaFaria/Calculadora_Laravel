@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CalculadoraController extends Controller
 {
-    // SOMA
+
 
     public function somar(Request $request)
     {
@@ -21,7 +21,7 @@ class CalculadoraController extends Controller
         return view('resultado', ['resultado' => $resultado]);
     }
 
-    // SUBTRAÇÃO
+
 
     public function subtrair(Request $request)
     {
@@ -39,7 +39,7 @@ class CalculadoraController extends Controller
         return view('resultado', ['resultado' => $resultado]);
     }
 
-    // MULTIPLICAÇÃO
+
 
     public function multiplicar(Request $request)
     {
@@ -57,7 +57,7 @@ class CalculadoraController extends Controller
         return view('resultado', ['resultado' => $resultado]);
     }
 
-    // DIVISÃO
+
 
     public function dividir(Request $request)
     {
